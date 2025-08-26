@@ -66,3 +66,250 @@ Caused by: org.eclipse.core.internal.resources.ResourceException: Invalid projec
 	at org.eclipse.ui.internal.wizards.datatransfer.SmartImportJob.createOrImportProject(SmartImportJob.java:594)
 	at org.eclipse.ui.internal.wizards.datatransfer.SmartImportJob.toExistingOrNewProject(SmartImportJob.java:542)
 	... 2 more
+
+!ENTRY org.eclipse.mylyn.tasks.ui 2 0 2025-08-26 22:14:51.318
+!MESSAGE No search provider was registered. Tasks search is not available.
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-08-26 22:16:22.584
+!MESSAGE [Info] Document is null for editor: StudentController.java
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-08-26 22:16:22.585
+!MESSAGE [Info] Completion handler is refreshed for the document: file:///Users/karansingh/Desktop/Rest_APIs/LearningRESTAPIs/src/main/java/com/cfn/main/controllers/StudentController.java
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-08-26 22:16:22.600
+!MESSAGE [Info] Document is null for editor: StudentDto.java
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-08-26 22:16:22.600
+!MESSAGE [Info] Completion handler is refreshed for the document: file:///Users/karansingh/Desktop/Rest_APIs/LearningRESTAPIs/src/main/java/com/cfn/main/dto/StudentDto.java
+!SESSION 2025-08-26 22:16:25.659 -----------------------------------------------
+eclipse.buildId=4.36.0.202506052058
+java.version=21.0.7
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=macosx, ARCH=aarch64, WS=cocoa, NL=en_IN
+Framework arguments:  -product org.springframework.boot.ide.branding.sts4 -keyring /Users/karansingh/.eclipse_keyring
+Command-line arguments:  -os macosx -ws cocoa -arch aarch64 -product org.springframework.boot.ide.branding.sts4 -keyring /Users/karansingh/.eclipse_keyring
+
+!ENTRY ch.qos.logback.classic 1 0 2025-08-26 22:16:27.122
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY org.eclipse.lemminx.uber-jar 4 0 2025-08-26 22:16:27.256
+!MESSAGE bundle org.eclipse.lemminx.uber-jar:0.31.0 (329) Component descriptor entry 'OSGI-INF/*.xml' not found
+
+!ENTRY ch.qos.logback.classic 1 0 2025-08-26 22:16:32.096
+!MESSAGE Logback config file: /Users/karansingh/Desktop/Rest_APIs/.metadata/.plugins/org.eclipse.m2e.logback/logback.2.7.100.20250418-1315.xml
+
+!ENTRY org.eclipse.ui 2 0 2025-08-26 22:16:32.263
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2025-08-26 22:16:32.263
+!MESSAGE Commands should really have a category: plug-in='org.springframework.tooling.boot.ls', id='spring.initializr.addStarters', categoryId='org.eclipse.lsp4e.commandCategory'
+
+!ENTRY org.eclipse.ui 2 0 2025-08-26 22:16:32.393
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2025-08-26 22:16:32.393
+!MESSAGE Commands should really have a category: plug-in='org.springframework.tooling.boot.ls', id='spring.initializr.addStarters', categoryId='org.eclipse.lsp4e.commandCategory'
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-08-26 22:16:36.011
+!MESSAGE [Info] Starting language server with binary lsp agent.
+
+!ENTRY org.eclipse.lsp4e 2 0 2025-08-26 22:16:36.823
+!MESSAGE Timed out after waiting for 300ms for semantic tokens from Language Servers
+!STACK 0
+java.util.concurrent.TimeoutException
+	at java.base/java.util.concurrent.CompletableFuture.timedGet(CompletableFuture.java:1960)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2095)
+	at org.eclipse.lsp4e.jdt.LSJavaSemanticTokensProvider.computeSemanticTokens(LSJavaSemanticTokensProvider.java:68)
+	at org.eclipse.jdt.internal.ui.javaeditor.SemanticHighlightingReconciler.getContributedSemanticTokens(SemanticHighlightingReconciler.java:423)
+	at org.eclipse.jdt.internal.ui.javaeditor.SemanticHighlightingReconciler.reconciled(SemanticHighlightingReconciler.java:470)
+	at org.eclipse.jdt.internal.ui.javaeditor.CompilationUnitEditor.reconciled(CompilationUnitEditor.java:1674)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconciled(JavaReconcilingStrategy.java:228)
+	at org.eclipse.jdt.internal.ui.text.JavaCompositeReconcilingStrategy.reconciled(JavaCompositeReconcilingStrategy.java:171)
+	at org.eclipse.jdt.internal.ui.text.JavaCompositeReconcilingStrategy.initialReconcile(JavaCompositeReconcilingStrategy.java:147)
+	at org.eclipse.jface.text.reconciler.MonoReconciler.initialProcess(MonoReconciler.java:100)
+	at org.eclipse.jdt.internal.ui.text.JavaReconciler.initialProcess(JavaReconciler.java:425)
+	at org.eclipse.jface.text.reconciler.AbstractReconciler$BackgroundThread.run(AbstractReconciler.java:177)
+
+!ENTRY com.codetogether.hq.eclipse 1 0 2025-08-26 22:16:37.030
+!MESSAGE Authorization Server started successfuly
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-08-26 22:16:38.533
+!MESSAGE [Info] Lsp agent started successfully.
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-08-26 22:16:40.048
+!MESSAGE [Info]	[lsp] GitHub Copilot Language Server 1.348.0 initialized
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-08-26 22:16:40.326
+!MESSAGE [Info]	[certificates] Removed 6 expired certificates
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-08-26 22:25:41.680
+!MESSAGE [Info] Document is null for editor: StudentDto.java
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-08-26 22:25:41.681
+!MESSAGE [Info] Completion handler is refreshed for the document: file:///Users/karansingh/Desktop/Rest_APIs/LearningRESTAPIs/src/main/java/com/cfn/main/dto/StudentDto.java
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-08-26 22:25:41.702
+!MESSAGE [Info] Document is null for editor: StudentController.java
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-08-26 22:25:41.703
+!MESSAGE [Info] Completion handler is refreshed for the document: file:///Users/karansingh/Desktop/Rest_APIs/LearningRESTAPIs/src/main/java/com/cfn/main/controllers/StudentController.java
+!SESSION 2025-08-26 22:25:46.023 -----------------------------------------------
+eclipse.buildId=4.36.0.202506052058
+java.version=21.0.7
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=macosx, ARCH=aarch64, WS=cocoa, NL=en_IN
+Framework arguments:  -product org.springframework.boot.ide.branding.sts4 -keyring /Users/karansingh/.eclipse_keyring
+Command-line arguments:  -os macosx -ws cocoa -arch aarch64 -product org.springframework.boot.ide.branding.sts4 -keyring /Users/karansingh/.eclipse_keyring
+
+!ENTRY ch.qos.logback.classic 1 0 2025-08-26 22:25:47.151
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY org.eclipse.lemminx.uber-jar 4 0 2025-08-26 22:25:47.277
+!MESSAGE bundle org.eclipse.lemminx.uber-jar:0.31.0 (329) Component descriptor entry 'OSGI-INF/*.xml' not found
+
+!ENTRY ch.qos.logback.classic 1 0 2025-08-26 22:25:52.871
+!MESSAGE Logback config file: /Users/karansingh/Desktop/Rest_APIs/.metadata/.plugins/org.eclipse.m2e.logback/logback.2.7.100.20250418-1315.xml
+
+!ENTRY org.eclipse.ui 2 0 2025-08-26 22:25:53.060
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2025-08-26 22:25:53.060
+!MESSAGE Commands should really have a category: plug-in='org.springframework.tooling.boot.ls', id='spring.initializr.addStarters', categoryId='org.eclipse.lsp4e.commandCategory'
+
+!ENTRY org.eclipse.ui 2 0 2025-08-26 22:25:53.189
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2025-08-26 22:25:53.189
+!MESSAGE Commands should really have a category: plug-in='org.springframework.tooling.boot.ls', id='spring.initializr.addStarters', categoryId='org.eclipse.lsp4e.commandCategory'
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-08-26 22:25:56.816
+!MESSAGE [Info] Starting language server with binary lsp agent.
+
+!ENTRY com.codetogether.hq.eclipse 1 0 2025-08-26 22:25:57.789
+!MESSAGE Authorization Server started successfuly
+
+!ENTRY org.eclipse.lsp4e 2 0 2025-08-26 22:25:57.805
+!MESSAGE Timed out after waiting for 300ms for semantic tokens from Language Servers
+!STACK 0
+java.util.concurrent.TimeoutException
+	at java.base/java.util.concurrent.CompletableFuture.timedGet(CompletableFuture.java:1960)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2095)
+	at org.eclipse.lsp4e.jdt.LSJavaSemanticTokensProvider.computeSemanticTokens(LSJavaSemanticTokensProvider.java:68)
+	at org.eclipse.jdt.internal.ui.javaeditor.SemanticHighlightingReconciler.getContributedSemanticTokens(SemanticHighlightingReconciler.java:423)
+	at org.eclipse.jdt.internal.ui.javaeditor.SemanticHighlightingReconciler.reconciled(SemanticHighlightingReconciler.java:470)
+	at org.eclipse.jdt.internal.ui.javaeditor.CompilationUnitEditor.reconciled(CompilationUnitEditor.java:1674)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconciled(JavaReconcilingStrategy.java:228)
+	at org.eclipse.jdt.internal.ui.text.JavaCompositeReconcilingStrategy.reconciled(JavaCompositeReconcilingStrategy.java:171)
+	at org.eclipse.jdt.internal.ui.text.JavaCompositeReconcilingStrategy.initialReconcile(JavaCompositeReconcilingStrategy.java:147)
+	at org.eclipse.jface.text.reconciler.MonoReconciler.initialProcess(MonoReconciler.java:100)
+	at org.eclipse.jdt.internal.ui.text.JavaReconciler.initialProcess(JavaReconciler.java:425)
+	at org.eclipse.jface.text.reconciler.AbstractReconciler$BackgroundThread.run(AbstractReconciler.java:177)
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-08-26 22:25:58.764
+!MESSAGE [Info] Lsp agent started successfully.
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-08-26 22:25:59.817
+!MESSAGE [Info]	[lsp] GitHub Copilot Language Server 1.348.0 initialized
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-08-26 22:26:00.058
+!MESSAGE [Info]	[certificates] Removed 6 expired certificates
+
+!ENTRY org.eclipse.jface 2 0 2025-08-26 22:26:19.923
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2025-08-26 22:26:19.923
+!MESSAGE A conflict occurred for COMMAND+SHIFT+T:
+Binding(COMMAND+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.jdt.ui.navigate.open.type"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(COMMAND+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolInWorkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.lsp4e.symbolInWorkspace"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-08-26 22:27:56.068
+!MESSAGE [Info]	[fetchChat] Request 6226f256-958f-4a75-a689-d5943a0b68e5 at <https://api.individual.githubcopilot.com/chat/completions> finished with 200 status after 968.7506659999926ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-08-26 22:28:00.184
+!MESSAGE [Info]	[streamMessages] message 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-08-26 22:28:00.757
+!MESSAGE [Info]	[fetchChat] Request 83513fea-dc1e-4f3b-8b1c-902fb85cfb18 at <https://api.individual.githubcopilot.com/chat/completions> finished with 200 status after 556.9418750000041ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-08-26 22:28:00.931
+!MESSAGE [Info]	[streamMessages] message 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-08-26 22:30:07.514
+!MESSAGE [Info]	[fetchCompletions] Request 4c0d9006-22f9-489b-a7c8-4f0181b03f8f at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 1411.8564580000238ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-08-26 22:30:07.575
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-08-26 22:30:08.273
+!MESSAGE [Info]	[fetchCompletions] Request 4cb44265-83cd-499c-b369-f2002e030e31 at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 278.22454200001084ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-08-26 22:30:08.330
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-08-26 22:30:11.337
+!MESSAGE [Info]	[fetchCompletions] Request b6b7e7b7-5074-4965-9f01-731bd0b85f1e at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 282.39233299999614ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-08-26 22:30:11.399
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-08-26 22:31:33.500
+!MESSAGE [Info] Document is null for editor: StudentDto.java
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-08-26 22:31:33.500
+!MESSAGE [Info] Completion handler is refreshed for the document: file:///Users/karansingh/Desktop/Rest_APIs/LearningRESTAPIs/src/main/java/com/cfn/main/dto/StudentDto.java
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-08-26 22:31:34.980
+!MESSAGE [Info] Document is null for editor: StudentController.java
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-08-26 22:31:34.980
+!MESSAGE [Info] Completion handler is refreshed for the document: file:///Users/karansingh/Desktop/Rest_APIs/LearningRESTAPIs/src/main/java/com/cfn/main/controllers/StudentController.java
+!SESSION 2025-08-26 22:36:41.198 -----------------------------------------------
+eclipse.buildId=4.36.0.202506052058
+java.version=21.0.7
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=macosx, ARCH=aarch64, WS=cocoa, NL=en_IN
+Framework arguments:  -product org.springframework.boot.ide.branding.sts4 -keyring /Users/karansingh/.eclipse_keyring
+Command-line arguments:  -os macosx -ws cocoa -arch aarch64 -product org.springframework.boot.ide.branding.sts4 -keyring /Users/karansingh/.eclipse_keyring
+
+!ENTRY ch.qos.logback.classic 1 0 2025-08-26 22:36:42.639
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY org.eclipse.lemminx.uber-jar 4 0 2025-08-26 22:36:42.772
+!MESSAGE bundle org.eclipse.lemminx.uber-jar:0.31.0 (329) Component descriptor entry 'OSGI-INF/*.xml' not found
+
+!ENTRY ch.qos.logback.classic 1 0 2025-08-26 22:36:47.093
+!MESSAGE Logback config file: /Users/karansingh/Desktop/Rest_APIs/.metadata/.plugins/org.eclipse.m2e.logback/logback.2.7.100.20250418-1315.xml
+
+!ENTRY org.eclipse.ui 2 0 2025-08-26 22:36:47.244
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2025-08-26 22:36:47.244
+!MESSAGE Commands should really have a category: plug-in='org.springframework.tooling.boot.ls', id='spring.initializr.addStarters', categoryId='org.eclipse.lsp4e.commandCategory'
+
+!ENTRY org.eclipse.ui 2 0 2025-08-26 22:36:47.373
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2025-08-26 22:36:47.373
+!MESSAGE Commands should really have a category: plug-in='org.springframework.tooling.boot.ls', id='spring.initializr.addStarters', categoryId='org.eclipse.lsp4e.commandCategory'
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-08-26 22:36:49.788
+!MESSAGE [Info] Starting language server with binary lsp agent.
+
+!ENTRY com.codetogether.hq.eclipse 1 0 2025-08-26 22:36:50.250
+!MESSAGE Authorization Server started successfuly
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-08-26 22:36:51.363
+!MESSAGE [Info] Lsp agent started successfully.
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-08-26 22:36:52.528
+!MESSAGE [Info]	[lsp] GitHub Copilot Language Server 1.348.0 initialized
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-08-26 22:36:52.765
+!MESSAGE [Info]	[certificates] Removed 6 expired certificates

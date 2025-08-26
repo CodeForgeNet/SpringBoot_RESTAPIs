@@ -1,0 +1,5 @@
+package com.cfn.main.dto;
+
+public class StudentDto {
+
+}
